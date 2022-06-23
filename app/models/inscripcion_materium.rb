@@ -1,0 +1,2 @@
+class InscripcionMaterium < ApplicationRecord
+end

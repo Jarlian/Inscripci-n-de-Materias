@@ -1,0 +1,6 @@
+<h1>Materias disponibles</h1>
+<% @materias.each do |materia| %>
+  <h2><%= materia.materia %></h2>
+  <span>Profesor: <%= materia.profesor%> </span>
+  <span>Cupos: <%= materia.cupos %> </span>
+<% end %> 
